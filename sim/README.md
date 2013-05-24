@@ -3,8 +3,9 @@
 How to use the files in this repo.
 
 `LV2.3.ork` is an [OpenRocket](http://openrocket.info/) file.
-It contains all the information to simulate a launch, like the
-size and mass of the rocket.
+This was built with version 13.05. It contains all the
+information to simulate a launch, like the size and mass of
+the rocket.
 
 Parameters used for prelaunch sim:
 
