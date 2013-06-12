@@ -14,6 +14,8 @@ Parameters used for prelaunch sim:
  - Length: 0.353 m
  - Diameter: 14.0 cm
 
+**Expected Altitide: 4287 m**
+
 ---------------------------------------------------------------
 
 
