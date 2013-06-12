@@ -9,9 +9,10 @@ the rocket.
 
 Parameters used for prelaunch sim:
 
- - Mass (with motors): 
- - CG: 
-
+ - Mass (with motors): 34.069 kg
+ - CG: 241 cm (from nosecone)
+ - Length: 0.353 m
+ - Diameter: 14.0 cm
 
 ---------------------------------------------------------------
 
