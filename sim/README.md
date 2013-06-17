@@ -20,7 +20,7 @@ Parameters used for prelaunch sim:
 **Expected Altitide: 4.3 km**
 
 
-### Inertia Calcualtion From SolidWorks:
+### Inertia Calculation From SolidWorks:
 
 Principal axes of inertia and principal moments of inertia: ( pounds * square inches )
 Taken at the center of mass.
