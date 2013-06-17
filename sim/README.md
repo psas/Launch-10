@@ -9,12 +9,38 @@ the rocket.
 
 Parameters used for prelaunch sim:
 
- - Mass (with motors): 34.069 kg
- - CG: 241 cm (from nosecone)
- - Length: 0.353 m
+ - Mass (with motors): 33.742 kg
+ - CG: 241.3 cm (from nosecone)
+ - Length: 3.536 m (_without_ motor overhang)
  - Diameter: 14.0 cm
 
-**Expected Altitide: 4287 m**
+**Expected Altitide: 4.3 km**
+
+
+### Inertia Calcualtion From SolidWorks:
+
+Principal axes of inertia and principal moments of inertia: ( pounds * square inches )
+Taken at the center of mass.
+
+    Ix = (0.00, -0.00, 1.00)       Px = 359.17
+    Iy = (0.80, -0.60, -0.00)       Py = 96889.11
+    Iz = (0.60, 0.80, -0.00)       Pz = 96889.44
+
+
+Moments of inertia: ( pounds * square inches )
+Taken at the center of mass and aligned with the output coordinate system.
+
+    Lxx = 96889.23    Lxy = -0.16    Lxz = 3.88
+    Lyx = -0.16    Lyy = 96889.32    Lyz = -0.61
+    Lzx = 3.88    Lzy = -0.61    Lzz = 359.17
+
+
+Moments of inertia: ( pounds * square inches )
+Taken at the output coordinate system.
+
+    Ixx = 768296.76    Ixy = -0.16    Ixz = -21.25
+    Iyx = -0.16    Iyy = 768296.85    Iyz = -37.02
+    Izx = -21.25    Izy = -37.02    Izz = 359.17
 
 ---------------------------------------------------------------
 
