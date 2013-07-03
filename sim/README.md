@@ -15,9 +15,9 @@ Parameters used for prelaunch sim:
  - CG: 241.3 cm (from nosecone)
  - Length: 3.536 m (_without_ motor overhang)
  - Diameter: 14.0 cm
- - Motor: [Cesaroni N2850](http://www.thrustcurve.org/simfilesearch.jsp?id=1727)
+ - Motor: [Cesaroni N2500](http://www.thrustcurve.org/simfilesearch.jsp?id=1442)
 
-**Expected Altitide: 4.3 km**
+**Expected Altitide: 4.0 km**
 
 
 ### Inertia Calculation From SolidWorks:
