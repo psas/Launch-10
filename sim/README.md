@@ -7,7 +7,7 @@ This was built with version 13.05. It contains all the
 information to simulate a launch, like the size and mass of
 the rocket.
 
-![Open Rocket preview of LV2.3](https://raw.github.com/psas/flight_data-launch10/master/sim/OpenRocket_preview.png)
+![Open Rocket preview of LV2.3](OpenRocket_preview.png)
 
 Parameters used for prelaunch sim:
 
