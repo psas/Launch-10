@@ -13,6 +13,7 @@ The raw data is in folders named after the device the date comes from.
 
  - `sim/`: OpenRocket and other simulation files.
  - `fc/`: Flight Computer logs
+ - `arts/`: Data from ARTS board
 
 
 Note on "raw" data. Some of the data will be preprocessed either by
