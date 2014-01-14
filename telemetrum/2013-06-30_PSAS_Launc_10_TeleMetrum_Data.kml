@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>AO Flight#5 S/N: 221</name>
+  <description>
+Date:   0000-00-00
+Time:     19:11:58
+  </description>
+  <open>0</open>
+  <Style id="ao-flightstate-pad">
+    <LineStyle><color>FF000000</color><width>4</width></LineStyle>
+    <BalloonStyle>
+      <text>
+	State: pad
+      </text>
+    </BalloonStyle>
+  </Style>
+  <Placemark>
+    <name>pad</name>
+    <styleUrl>#ao-flightstate-pad</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -120.6514483,43.7957633,1261.2193293 <!-- alt 1387.0000000 time   -0.3000000 sats 7 -->
+        -120.6514483,43.7957633,1302.4941855 <!-- alt 1387.0000000 time    1.1700000 sats 6 -->
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Style id="ao-flightstate-boost">
+    <LineStyle><color>FF0000FF</color><width>4</width></LineStyle>
+    <BalloonStyle>
+      <text>
+	State: boost
+      </text>
+    </BalloonStyle>
+  </Style>
+  <Placemark>
+    <name>boost</name>
+    <styleUrl>#ao-flightstate-boost</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -120.6514483,43.7957633,1302.4941855 <!-- alt 1387.0000000 time    1.1700000 sats 6 -->
+        -120.6514483,43.7957633,1400.4340231 <!-- alt 1387.0000000 time    2.1500000 sats 3 -->
+        -120.6514483,43.7957633,1552.4369754 <!-- alt 1387.0000000 time    3.1500000 sats 3 -->
+        -120.6514483,43.7957633,1722.1385446 <!-- alt 1387.0000000 time    4.1300000 sats 0 -->
+        -120.6514483,43.7957633,1948.9886940 <!-- alt 1387.0000000 time    5.1400000 sats 0 -->
+        -120.6514483,43.7957633,2265.8480679 <!-- alt 1387.0000000 time    6.1300000 sats 0 -->
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Style id="ao-flightstate-fast">
+    <LineStyle><color>FF4080FF</color><width>4</width></LineStyle>
+    <BalloonStyle>
+      <text>
+	State: fast
+      </text>
+    </BalloonStyle>
+  </Style>
+  <Placemark>
+    <name>fast</name>
+    <styleUrl>#ao-flightstate-fast</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates>
+        -120.6514483,43.7957633,2265.8480679 <!-- alt 1387.0000000 time    6.1300000 sats 0 -->
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>
