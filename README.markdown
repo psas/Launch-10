@@ -1,4 +1,5 @@
-# PSAS Flight Data
+# PSAS Launch 10
+
 
 ![Launch 10 Mission Patch](http://psas.pdx.edu/launch10/LV2.3-October.png)
 
@@ -12,9 +13,9 @@ onboard the rocket.
 The raw data is in folders named after the device the date comes from.
 
  - `sim/`: OpenRocket and other simulation files.
- - `fc/`: Flight Computer logs
- - `arts/`: Data from ARTS board
-
+ - `data/raw/`: Flight Computer logs
+ - `data/ARTS2/`: Data from ARTS board
+ - `data/TeleMetrium/`: Data from ARTS board
 
 Note on "raw" data. Some of the data will be preprocessed either by
 the tools that come with the device (in the case of the commercial
